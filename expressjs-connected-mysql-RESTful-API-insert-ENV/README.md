@@ -50,7 +50,7 @@ periksa file json dan buat file js secara manual serta isinya.
         DB_PORT=3309
         DB_INSECUREAUTH=true
         
-    ---
+---
 
 
 jalankan (command) :
