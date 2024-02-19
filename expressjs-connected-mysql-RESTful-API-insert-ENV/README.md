@@ -37,15 +37,21 @@ periksa file json dan buat file js secara manual serta isinya.
 
 - app.js
 
+- .env
+
+---
+
+  ❯ cat .env
+
+
+---
 
 
 jalankan (command) :
 
-    > node app.js
+    ❯ node app.js
         op:
         Server running on port 3000
-
-
 
 
 ---
@@ -65,9 +71,9 @@ untuk mengatasi hal tersebut lakukan langkah berikut:
 
 
     ❯ mysql -h 127.0.0.1 -P 3309 -u root -p --ssl-mode=DISABLED
+    
         mysql> ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
         Query OK, 0 rows affected (0.03 sec)
-
 
 
         mysql> use ujimysqlkudb;
