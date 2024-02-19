@@ -105,6 +105,7 @@ eksekusi dengan CURL:
         {"message":"Data berhasil ditambahkan"}%
 
 - contoh 2 ( catatan : maximum int adalah 2,147,483,647)
+  
     curl -X POST -H "Content-Type: application/json" -d '{"intbiasa": 2147490000, "intpositive": 4294900000}' http://localhost:3000/data
 
         output :
